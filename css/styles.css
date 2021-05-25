@@ -1,9 +1,15 @@
 body {
   font-family: "Titillium Web", sans-serif;
 }
-/* .navbar-brand {
-  transform: translateX(-50%);
-  left: 58%;
-  position: absolute;
-  margin-top: 10%;
-} */
+.navbar-nav > li {
+  float: none;
+  vertical-align: bottom;
+}
+#site-logo {
+  position: relative;
+  vertical-align: bottom;
+  bottom: -35px;
+}
+#site-logo a {
+  margin-top: -53px;
+}
