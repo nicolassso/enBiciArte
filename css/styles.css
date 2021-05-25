@@ -25,7 +25,7 @@ body {
 
 
 .hero-image {
-  background-image: url("img/bici-rueda-trasera-dorada.jpg");
+  background-image: url("..img/bici-rueda-trasera-dorada.jpg");
   background-color: #cccccc;
   height: 1000px;
   background-position: center;
