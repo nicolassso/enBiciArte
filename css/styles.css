@@ -1,5 +1,6 @@
 body {
   font-family: "Titillium Web", sans-serif;
+  background-color: #fff;
 }
 .navbar-nav > li {
   float: none;
@@ -12,4 +13,32 @@ body {
 }
 #site-logo a {
   margin-top: -53px;
+}
+.whatsapp-link{
+  text-decoration: none;
+  color: #ffc80f;
+}
+.whatsapp-link:hover{
+  text-decoration: none;
+  color: #ac9333;
+}
+
+
+.hero-image {
+  background-image: url("/img/bici-rueda-trasera-dorada.jpg");
+  background-color: #cccccc;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-80%, -350%);
+  color: #ac9333;
 }
