@@ -32,13 +32,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  /* background-attachment: fixed; */
 }
 
 .hero-text {
   text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-80%, -350%);
+  position:absolute;
   color: #ac9333;
+  left: 2em;
+  right: 2em;
+  top: 5em;
 }
