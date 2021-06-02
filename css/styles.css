@@ -1,7 +1,7 @@
 body {
   font-family: "Titillium Web", sans-serif;
   background-color: #fff;
-  background-image: url("/img/wood-pattern-1920x1080.png");
+  background-image: url("../img/wood-pattern-1920x1080.png");
 
 }
 .navbar-nav > li {
