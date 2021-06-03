@@ -1,7 +1,6 @@
 body {
   font-family: "Titillium Web", sans-serif;
-  background-color: #fff;
-  background-image: url("../img/wood-pattern-1920x1080.png");
+  background-color: #47d5cd;
 
 }
 .navbar-nav > li {
@@ -21,7 +20,7 @@ body {
 }
 .whatsapp-link{
   text-decoration: none;
-  color: #4d959f;
+  color: black;
 }
 .whatsapp-link:hover{
   text-decoration: none;
@@ -29,14 +28,15 @@ body {
 }
 
 .hero-text {
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: bold;
   padding-top: 5vh;
   margin: auto;
   text-align: center;
-  color: #ffffff;
+  color: black;
   left: 4vw;
   right: 4vw;
+  font-family: 'Dancing Script';
 }
 
 div.shadow {
@@ -47,10 +47,19 @@ div.shadow {
 }
 img.logo {
   position:relative;
-  max-width:100%;
-  max-height:100%;
+  max-width:120%;
+  max-height:120%;
   margin-right:-50%;
   margin-left:-50%;
-  margin-top: -45%;
+  margin-top: -47%;
   z-index: -1;
+}
+
+
+footer {
+  color: white;
+  padding-top: 1em;
+  background: #000000;
+  width: 100%;
+  overflow: auto;
 }
